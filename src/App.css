@@ -1,0 +1,23 @@
+.wrapper {
+   text-align: center;
+   background-color: #f5f6f8;
+   padding: 3%;
+}
+
+.innerDiv {
+   width: 40%;
+   margin: auto;
+}
+
+*:focus {
+   outline: none;
+}
+
+.title{
+   font-size: 12px;
+   color: gray;
+}
+
+.modal-height{
+   width: 50%;
+}

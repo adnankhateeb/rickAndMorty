@@ -1,0 +1,24 @@
+.searchDiv {
+   display: flex;
+   /* border: 1px solid red; */
+   margin: auto;
+   width: 66%;
+   background-color: white;
+   align-items: center;
+   padding: 0 2%;
+   height: 3rem;
+   margin-bottom: 2%;
+}
+
+.searchInput {
+   /* padding: 2%; */
+   width: 80%;
+   height: 94%;
+   border: none;
+   margin: auto;
+}
+.searchInput::placeholder{
+    opacity: 0.6;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
