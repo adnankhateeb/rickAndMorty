@@ -20,17 +20,14 @@ export const ResultsContextProvider = ({ children }) => {
          )
          .then((data) => {
             setResults(results.concat(data.data.results));
-            console.log(results.length)
-            console.log(total);
          })
    };
 
 
    const handleChange = (e) => {
-      setQuery(e.target.value);
       clearTimeout(timeout.current);
+      setQuery(e.target.value);
       setResults([]);
-      console.log(query)
 
       timeout.current = setTimeout(() => {
          axios
